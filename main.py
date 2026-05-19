@@ -36,7 +36,7 @@ API_ID       = int(os.environ.get("API_ID", "21952127"))
 API_HASH     = os.environ.get("API_HASH", "e0a3741bb3b132947d86d8fc6218eebe")
 BOT_TOKEN    = os.environ.get("BOT_TOKEN", "8821493954:AAFq_3lBHYUahOanJgIVcV3HielzuPPLRTk")
 OWNER_ID     = int(os.environ.get("OWNER_ID", "8156053366"))  # Your Telegram numeric ID
-SESSION_FILE = "session_data.json"
+SESSION_ENV = "session_data.json"
 
 # Delay between each group message (seconds) - random range to avoid detection
 MIN_DELAY = 400  # minimum seconds between groups
