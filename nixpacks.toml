@@ -1,16 +1,7 @@
-[phases.setup]
-nixPkgs = ["python311", "pip"]
-
 [phases.install]
 cmds = [
   "pip install --upgrade pip",
-  "pip install telethon==1.36.0",
-  "pip install python-telegram-bot==21.3",
-  "pip install httpx==0.27.0",
-  "pip install rich==13.7.0",
-  "pip install cryptg==0.4.0",
-  "pip install pyaes==1.6.1",
-  "pip install rsa==4.9"
+  "pip install -r requirements.txt"
 ]
 
 [start]
