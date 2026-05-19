@@ -32,18 +32,20 @@ from rich import box
 #              CONFIGURATION
 # ─────────────────────────────────────────────
 
-API_ID    = int(os.environ.get("API_ID", "0"))
-API_HASH  = os.environ.get("API_HASH", "")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8821493954:AAFq_3lBHYUahOanJgIVcV3HielzuPPLRTk")
-OWNER_ID  = int(os.environ.get("OWNER_ID", "0"))
+API_ID       = int(os.environ.get("API_ID", "21952127"))
+API_HASH     = os.environ.get("API_HASH", "e0a3741bb3b132947d86d8fc6218eebe")
+BOT_TOKEN    = os.environ.get("BOT_TOKEN", "8821493954:AAFq_3lBHYUahOanJgIVcV3HielzuPPLRTk")
+OWNER_ID     = int(os.environ.get("OWNER_ID", "8156053366"))  # Your Telegram numeric ID
+SESSION_FILE = "session_data.json"
 
-SESSION_ENV  = os.environ.get("SESSION_STRING", "")
-SESSION_FILE = "/tmp/session_data.json"
+# Delay between each group message (seconds) - random range to avoid detection
+MIN_DELAY = 400  # minimum seconds between groups
+MAX_DELAY = 1000  # maximum seconds between groups
 
-MIN_DELAY       = 45
-MAX_DELAY       = 120
-CYCLE_DELAY_MIN = 3600
-CYCLE_DELAY_MAX = 7200
+# Delay between full cycles (seconds)
+CYCLE_DELAY_MIN = 3600  # 1 hour
+CYCLE_DELAY_MAX = 7200  # 2 hours
+
 
 # ─────────────────────────────────────────────
 #              LOGGING
