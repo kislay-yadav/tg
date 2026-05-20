@@ -23,8 +23,8 @@ from rich import box
 API_ID       = 21952127
 API_HASH     = "e0a3741bb3b132947d86d8fc6218eebe"
 BOT_TOKEN    = os.environ.get("BOT_TOKEN", "8821493954:AAGnRCfjoFxsYZZtNvLw_QOFy_y0wGu-inM")
-OWNER_ID     = int(os.environ.get("OWNER_ID", "0"))
-RENDER_URL   = os.environ.get("RENDER_EXTERNAL_URL", "").rstrip("/")
+OWNER_ID     = int(os.environ.get("OWNER_ID", "8156053366"))
+RENDER_URL   = os.environ.get("RENDER_EXTERNAL_URL", "https://tg-n7dh.onrender.com").rstrip("/")
 PORT         = int(os.environ.get("PORT", "8080"))
 DATA_FILE    = "/tmp/sessions_db.json"
 MIN_DELAY    = 45
