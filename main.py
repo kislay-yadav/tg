@@ -22,7 +22,7 @@ from rich import box
 # ═══════════════════════════════════════════
 API_ID       = 21952127
 API_HASH     = "e0a3741bb3b132947d86d8fc6218eebe"
-BOT_TOKEN    = "8821493954:AAFq_3lBHYUahOanJgIVcV3HielzuPPLRTk"
+BOT_TOKEN    = "8821493954:AAFtjGU4PWqyJl-tTASuI3HRBMUl6ZQ18AE"
 OWNER_ID     = int(os.environ.get("OWNER_ID", "8156053366"))
 RAILWAY_URL  = os.environ.get("RAILWAY_PUBLIC_DOMAIN", "tg-production-4302.up.railway.app")
 PORT         = int(os.environ.get("PORT", "8080"))
